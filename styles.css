@@ -437,7 +437,7 @@ footer .footer-con .company {
     font-size: 10px;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 488px) {
   header {
     margin: 36px 35px 0px;
   }
