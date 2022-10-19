@@ -1,0 +1,564 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+h1,
+h2,
+h3 {
+  font-weight: 700;
+}
+h1 {
+  font-family: "Roboto Slab";
+  font-size: 80px;
+  line-height: 101.38%;
+}
+h2 {
+  font-size: 1.551724em;
+  line-height: 130%;
+  font-family: "Roboto";
+}
+p {
+  font-weight: 400;
+  font-family: "Roboto";
+}
+ul li {
+  font-family: "Roboto";
+  font-weight: 400px;
+}
+header {
+  margin: 1.5277% 8.4722% 0;
+}
+.header {
+  font-size: 55px;
+}
+.con-1 {
+  margin: 0 8.4027%;
+}
+.con-1 .upper-list {
+  list-style: none;
+  margin-top: 100px;
+  display: flex;
+  gap: 40px;
+}
+li a {
+  text-decoration: none;
+}
+.con-1 li span {
+  padding-left: 10px;
+  font-size: 20px;
+  color: #000;
+}
+.films {
+  display: flex;
+  justify-content: space-between;
+}
+.films h1 {
+  margin-top: 30px;
+}
+.films p {
+  margin-top: 20px;
+  line-height: 150%;
+  font-size: 20px;
+}
+.films img {
+  margin-right: 125px;
+}
+.comment {
+  background-color: #1e4681;
+  color: white;
+  margin: 87px auto 0px;
+  max-width: 483px;
+  border-radius: 5px;
+  padding: 19px 27px 21px;
+}
+.comment p {
+  line-height: 130%;
+}
+.comment p:first-child {
+  font-family: "Roboto Slab";
+  font-size: 25px;
+}
+.comment p:last-child {
+  text-align: right;
+  margin-right: -8px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+/* COURSE SECTION STARTS HERE */
+
+.course {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12.0138%;
+}
+.course .container-1 {
+  padding: 0 13.1894% 0 0;
+}
+.course img {
+  vertical-align: middle;
+}
+.course .container-1 p {
+  font-size: 1.5em;
+  line-height: 150%;
+  margin-top: 4%;
+}
+.days-of-course {
+  display: flex;
+  gap: 9.1666%;
+  margin-top: 94px;
+}
+.days-of-course img {
+  width: 100%;
+}
+.type-of-education {
+  display: flex;
+  justify-content: space-between;
+  gap: 6.59722222%;
+  margin-left: 9.1666%;
+}
+.type-of-education div {
+  margin-top: 9.26%;
+  width: 27.66%;
+}
+.type-of-education h3 {
+  font-family: "Roboto";
+  font-size: 1.3em;
+  line-height: 130%;
+  margin-bottom: 5.5%;
+}
+.type-of-education p {
+  font-size: 0.947368em;
+  line-height: 130%;
+}
+
+/* FORM OF LESSONS STARTS HERE */
+
+.form-of-lessons {
+  margin-top: 13.1174%;
+}
+.form-of-lessons .header {
+  margin-bottom: 7.2064%;
+}
+.columns {
+  display: flex;
+  gap: 18.1597%;
+}
+.form-of-lessons .column-h {
+  color: #1e4681;
+  margin-bottom: 10px;
+}
+.form-of-lessons .column-p {
+  font-size: 18px;
+  line-height: 130%;
+  /* в первой колонке ширина 223px, второй 271px, третье 245px */
+  max-width: 260px;
+}
+
+/* KNOWLEDGE STARTS HERE*/
+
+.knowledge .header {
+  margin-top: 16.1943%;
+  margin-bottom: 4.6963%;
+}
+.knowledge ul {
+  margin-left: 19px;
+  width: 45.9232%;
+}
+.knowledge ul li {
+  font-size: 24px;
+  line-height: 150%;
+}
+
+/* COURSE PROGRAM STARTS HERE */
+.course-program {
+  margin-bottom: 8.40277%;
+}
+.con-1 .header:last-child {
+  margin-top: 19.10397295%;
+  margin-bottom: 9.846%;
+}
+.course-program .program {
+  margin: 0 5.55555555%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 37px;
+}
+.course-program .program .program-container {
+  width: 31.1718%;
+  background-color: #fff;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+.program-container img {
+  width: 100%;
+}
+.course-program .program .program-container .description {
+  padding: 11px 20px 23px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.course-program .program .program-container h2 {
+  line-height: 97%;
+}
+.course-program .program .program-container .description p {
+  font-size: 25px;
+  line-height: 130%;
+  margin-top: 18px;
+}
+
+.passed-con {
+  background-color: #efefef;
+}
+.passed {
+  padding: 6.3194% 0 7.7083% 8.4722%;
+}
+.passed .header {
+  margin-bottom: 5%;
+}
+.card {
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+  padding: 3.0372% 3.4168% 2.2019%;
+  margin: 0 36.3194% 0 0;
+}
+.card .p-1 {
+  font-size: 20px;
+  line-height: 150%;
+  /* margin: 40px 45px 10px; */
+}
+.card h1 {
+  font-size: 30px;
+}
+.card .information {
+  display: flex;
+  padding: 9.2187% 0 0;
+}
+.card .information div h1 {
+  margin-top: 30px;
+}
+.card .information div img {
+  width: 32px;
+  margin-top: 29px;
+}
+.begining-con {
+  background-color: #9dc9c8;
+}
+.begining {
+  padding: 12.4305% 8.4722% 12.8472%;
+}
+.begining .header {
+  margin-bottom: 55px;
+}
+.begining-price {
+  font-size: 80px;
+  margin-bottom: 80px;
+}
+.begining .big-container {
+  display: flex;
+  gap: 70px;
+}
+.begining .p-18 {
+  font-size: 18px;
+}
+.begining-con .begining .big-container .column-container .p-25 {
+  margin-bottom: 10px;
+}
+.p-25 {
+  font-size: 25px;
+}
+
+/* FOOTER STARTS HERE */
+footer {
+  background-color: #000;
+}
+footer p {
+  color: #efefef;
+}
+.footer-con {
+  padding: 3.4722% 8.4722% 3.125%;
+}
+footer .footer-con .outer-box {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-con .outer-box .inner-box img {
+  margin-bottom: 30px;
+}
+footer .footer-con .outer-box .contacts div {
+  display: flex;
+}
+footer .footer-con .outer-box .inner-box .social-medias {
+  display: flex;
+  justify-content: space-between;
+  width: 182px;
+  gap: 2.2058%;
+}
+footer .footer-con .outer-box .inner-box .social-medias a img {
+  width: 33px;
+}
+footer .footer-con .outer-box .contacts .contacts-details {
+  margin-bottom: 25px;
+  gap: 22px;
+}
+footer .footer-con .outer-box .contacts .contacts-details img {
+  width: 27px;
+}
+footer .footer-con .company {
+  margin-top: 12.2909%;
+}
+@media (max-width: 834px) {
+  h1 {
+    font-size: 46px;
+  }
+  h2 {
+    font-size: 15px;
+  }
+  .header {
+    font-size: 32px;
+  }
+  header img {
+    width: 64.87px;
+  }
+  .con-1 .upper-list {
+    margin-top: 58px;
+    gap: 20px;
+  }
+  .con-1 ul li a img {
+    width: 12.74px;
+  }
+  .con-1 li span {
+    padding-left: 5px;
+    font-size: 12px;
+  }
+  .films h1 {
+    margin-top: 7.53px;
+  }
+  .films p {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  .films img {
+    margin-right: 71.92px;
+    width: 176.07px;
+  }
+  .comment {
+    margin-top: 40px;
+    max-width: 280px;
+    border-radius: 2.89583px;
+    padding: 12px 15px 8px;
+  }
+  .comment p:first-child {
+    font-size: 14px;
+  }
+  .comment p:last-child {
+    margin-right: -6px;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+
+  /* COURSE SECTION STARTS HERE */
+
+  .course .container-1 p {
+    font-size: 14px;
+  }
+  .days-of-course img {
+    width: 134.37px;
+  }
+  .course img {
+    width: 134.37px;
+  }
+  .type-of-education h3 {
+    font-size: 15px;
+  }
+  .type-of-education p {
+    font-size: 11px;
+  }
+  .form-of-lessons .columns .column .column-p {
+    font-size: 11px;
+  }
+  .knowledge ul li {
+    font-size: 14px;
+  }
+  .course-program .program {
+    gap: 23.75px;
+  }
+  .course-program .program .program-container .description p {
+    font-size: 14px;
+  }
+  .card .p-1 {
+    font-size: 12px;
+  }
+  .passed-con .passed .card .information img:first-child {
+    width: 110.04px;
+    height: 97.88px;
+  }
+  .card .information h1 {
+    margin-top: 29px;
+    font-size: 17px;
+  }
+  .card .information div img {
+    width: 18.53px;
+    margin-top: 17px;
+  }
+  .begining .header {
+    margin-bottom: 31px;
+  }
+  .p-25 {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .begining-price {
+    font-size: 46px;
+    margin-bottom: 50px;
+  }
+  .begining .p-18 {
+    font-size: 10px;
+  }
+  footer .footer-con .outer-box .inner-box img:first-child {
+    width: 66.6px;
+  }
+  footer .footer-con .outer-box .contacts .contacts-details img {
+    width: 15.64px;
+  }
+  footer .footer-con .outer-box .inner-box .social-medias a img {
+    width: 21px;
+  }
+  .footer-con .company {
+    font-size: 10px;
+  }
+}
+@media (max-width: 375px) {
+  header {
+    margin: 36px 35px 0px;
+  }
+  .films,
+  .course,
+  .columns,
+  .program-container {
+    flex-direction: column;
+  }
+  h1 {
+    font-size: 37px;
+  }
+  con-1 {
+    margin: 0px 30px 0 36px;
+  }
+  .con-1 .upper-list {
+    margin-top: 45.2px;
+  }
+  .header {
+    font-size: 26px;
+  }
+  .con-1 .upper-list ul li a img {
+    width: 10.25px;
+  }
+  .con-1 li span {
+    font-size: 10px;
+  }
+  .films p {
+    margin-top: 15px;
+    font-size: 10px;
+  }
+  .films-img img {
+    width: 141.66px;
+    float: right;
+    margin: 0;
+  }
+  .comment {
+    margin-left: 0px;
+    padding: 8px 12.36px 6.68px;
+    width: 225.36px;
+  }
+  .comment p:first-child {
+    font-size: 11px;
+  }
+  .con-1 .course {
+    margin-top: 75.06px;
+  }
+  .course .container-1 {
+    padding: 0%;
+  }
+  .course .container-1 p {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  .course img {
+    width: 146.32px;
+    margin-left: 82px;
+  }
+  .days-of-course img {
+    display: none;
+  }
+  .days-of-course {
+    margin-top: 45.71px;
+  }
+  .type-of-education {
+    flex-wrap: wrap;
+    margin: 0;
+    gap: 33.33px;
+  }
+  .type-of-education div {
+    width: 86.89px;
+    margin: 0%;
+  }
+  .type-of-education div p {
+    font-size: 10px;
+  }
+  .type-of-education div h3 {
+    font-size: 12px;
+  }
+  .columns {
+    gap: 32px;
+  }
+  .knowledge ul {
+    margin: 0px 32px 0 30px;
+    width: 96%;
+  }
+  .knowledge ul li {
+    font-size: 12px;
+  }
+  .course-program .program .program-container {
+    width: 185.92px;
+    margin: 0 25.2106% 0 25.2106%;
+    border-radius: 13.9792px;
+  }
+  .course-program .program .program-container h2 {
+    font-size: 14px;
+  }
+  .course-program .program .program-container .description {
+    padding: 5.13px 0 10.72px 8.85px;
+  }
+  .course-program .program .program-container .description p {
+    font-size: 12px;
+  }
+  .passed {
+    padding: 42px 34px 53px;
+  }
+  .card {
+    margin: 0%;
+    border-radius: 13.9792px;
+  }
+  .card .p-1 {
+    font-size: 10px;
+  }
+  .card .information div h1 {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  .footer-con .outer-box {
+    flex-direction: column;
+  }
+  footer .footer-con .outer-box .contacts .contacts-details {
+    margin: 0%;
+  }
+}
